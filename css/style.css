@@ -4,3 +4,106 @@ body{
   font-family: 'Poppins';
   background-color: #f9f9f9;
 }
+#navbarMenuContent {
+    margin-top: .75rem;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+#navbarMenuContent ul li {
+    border-bottom: 1px solid #000;
+}
+#navbarMenuContent ul li:nth-child(1), #navbarMenuContent ul li:nth-child(2), #navbarMenuContent ul li:nth-child(3) {
+    padding: 5px 0;
+}
+#navbarMenuContent ul li:nth-child(1) {
+    background-color: #D59898;
+}
+#navbarMenuContent ul li:nth-child(2) {
+  background-color: #C14543;
+}
+#navbarMenuContent ul li:nth-child(3) {
+  background-color: #E6D198;
+}
+#main-content .chicken-description {
+  padding: 20px 20px 1px 20px;
+  background-color: #D59898;
+}
+#main-content .beef-description {
+  padding: 20px 20px 1px 20px;
+  background-color: #C14543;
+}
+#main-content .sushi-description {
+  padding: 20px 20px 1px 20px;
+  background-color: #E6D198;
+}
+#main-content h2 {
+  margin: 1rem 0 1.5rem;
+}
+section{
+  margin-bottom: 20px;
+}
+section h4{
+  color: #000;
+}
+button a{
+  text-decoration: none;
+}
+
+/* for DESKTOP only */
+
+@media (min-width: 992px){
+#main-content .chicken-description {
+  width: 32%;
+ margin-left: 1%;
+}
+#main-content .beef-description {
+  width: 32%;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+#main-content .sushi-description {
+  width: 32%;
+}
+}
+
+/* for TABLET only */
+
+@media (min-width: 768px) and (max-width: 991px){
+#main-content .chicken-description {
+  width: 48.5%;
+ margin-left: 1%;
+}
+#main-content .beef-description {
+  width: 48.5%;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+#main-content .sushi-description {
+  width: 98%;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+}
+
+/* for Small Devices only */
+
+@media (max-width: 767px){
+#main-content .chicken-description {
+  width: 96%;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 3%;
+}
+#main-content .beef-description {
+  width: 96%;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 3%;
+}
+#main-content .sushi-description {
+  width: 96%;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 3%;
+}
+}
