@@ -45,8 +45,12 @@ section{
 section h4{
   color: #000;
 }
+
 button a{
   text-decoration: none;
+}
+#back-to-top{
+  margin-bottom: 10px;
 }
 
 /* for DESKTOP only */
